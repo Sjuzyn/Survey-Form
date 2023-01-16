@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0; 
+    background-color: #c44866;
+    color: white; 
+    font-family: Tahoma; 
+    font-size: 18px; 
+  }
+  
+  h1, p {
+    text-align: center; 
+    margin: 0.5em auto;
+  }
+  
+  p {
+    font-style: italic; 
+  }
+  
+  form {
+    padding-top: 30px;
+    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    border: 5px solid #4c1422;
+    border-radius: 20px;
+  }
+  
+  label {
+    display: block; 
+    margin: 0.5rem;
+  }
+  
+  
