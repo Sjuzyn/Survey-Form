@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset="UTF-8">
+<title>Application Form</title> 
+<link rel="stylesheet" href="styles.css"/>
+  <head>
+<body>
+  <h1 id="title">
+    Application Form for Dev-Freaks Ltd.
+    </h1>
+  <p id="description"> 
+    It's nice to see you. Join our cool team! 
+    </p>
+  <form id="survey-form"> 
+    <fieldset>
+      <label for="name" id="name-label"> Enter your name and surname <input id="name" name="name" type="text" placeholder="John Smith" required /> </label>
+      <label for="email" id="email-label"> Enter your e-mail address <input id="email" name="email" type="email" placeholder="sam.smith@gmail.com" required/> </label>
+      <label for="number" id="number-label"> Age (optional) <input id="number" name="number" type="number" min="18" max="64" placeholder="30" </label>
+
+      <label for="role" id="role-label"> Choose the role that you want to apply for 
+        <select id="dropdown" name="role">
+          <option value="" > (select a role) </option>  
+          <option value="1" > Junior React Developer </option>  
+          <option value="2" > React Developer </option>  
+          <option value="3" > Senior React Developer </option>  
+        </select> 
+        </label> 
+
+        <label for="english" id="language-label" > How would you describe your English skills?
+          <label for="beginner"> <input id="language" type="radio" name="language-skills" value="beginner" /> Beginner </label>
+          <label for="intermediate"> <input id="language" type="radio" name="language-skills" value="intermediate" /> Intermediate </label>
+          <label for="advanced"> <input id="language" type="radio" name="language-skills" value="advanced" /> Advanced </label>
+
+        <label for="contract" id="contract-label"> What types of contract would you consider? 
+          <label for="b2b"> <input name="contract" value="B2B" type="checkbox" /> B2B</label> 
+          <label for="employment-contract"> <input name="contract" value="employment-contract" type="checkbox" /> Employment Contract</label> 
+          <label for="mandate-contract"> <input name="contract" value="mandate-contract" type="checkbox" /> Mandate Contract</label> 
+          </label>
+          <label for="salary" id="salary-label"> How much $ would you like to earn monthly?
+      <textarea id="salary" name="salary" rows="1" cols="10" placeholder="10 000"></textarea>
+          </label>
+      <label for="cv" id="cv-label">Upload your CV <input id="cv" type="file" name="file" /></label>
+          <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body> 
